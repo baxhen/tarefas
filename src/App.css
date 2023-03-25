@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0c70f2;
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.container > * {
+  flex: 1;
+}
